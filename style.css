@@ -76,8 +76,8 @@ h3 {
 .menu-link {
     font-size: 1.4em;
     margin-left: 10%;
-    color: #315D13;
-    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-family: "Audiowide", sans-serif;
     text-decoration: none;
 }
 .menu-link:hover,
@@ -98,10 +98,10 @@ h4 {
     text-decoration: none;
 }
 .current-link {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-left: 10%;
     color: #4A4A4A;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Audiowide", sans-serif;
     text-decoration: none;
     margin-top: auto;
     margin-bottom: auto;
