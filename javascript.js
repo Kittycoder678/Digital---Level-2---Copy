@@ -5,5 +5,5 @@ function reset() {
     menuBox.style.display = 'initial';
     menuBar.style.display = 'none';
 }
-menuBox.onmouseover = openMenu;
+menuBox.onmouseover = openMenu & div.menu-box-open;
 menuBar.onmouseleave = reset;

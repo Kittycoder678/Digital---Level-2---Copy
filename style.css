@@ -29,6 +29,16 @@ div.menu-box {
     margin: 0;
     z-index: 3;
 }
+div.menu-box-open{
+height: 100%;
+    aspect-ratio: 1/1;
+    background-color:#C3E8D5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 3;
+}
 .material-symbols-outlined {
     font-size: 120%;
     position: absolute;
@@ -63,7 +73,7 @@ h3 {
 }
 #menuBar {
     position: absolute;
-    background-color: #FAFFC3;
+    background-color: #C3E8D5;
     top: 0;
     left: 0;
     height: 100%;
@@ -98,14 +108,15 @@ h4 {
     text-decoration: none;
 }
 .current-link {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 10%;
     color: #4A4A4A;
     font-family: "Audiowide", sans-serif;
     text-decoration: none;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: -10%;
+    margin-bottom: -10%;
     font-weight: 600;
+    padding: 0%;
 }
 @media only screen and (max-width: 2256px) {
     #menuBar {
