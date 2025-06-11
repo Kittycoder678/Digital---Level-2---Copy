@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     height: 100%;
 }
+
 h1 {
     background-color: #003B7C;
     color: #F5F5F5;
@@ -19,6 +20,7 @@ h1 {
     letter-spacing: 2.5px;
     position: relative
 }
+
 div.menu-box {
     height: 100%;
     aspect-ratio: 1/1;
@@ -29,6 +31,18 @@ div.menu-box {
     margin: 0;
     z-index: 3;
 }
+
+div.menu-box-test {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color:pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 3;
+}
+
 div.menu-box-open{
 height: 100%;
     aspect-ratio: 1/1;
@@ -39,6 +53,7 @@ height: 100%;
     margin: 0;
     z-index: 3;
 }
+
 .material-symbols-outlined {
     font-size: 120%;
     position: absolute;
@@ -49,9 +64,22 @@ height: 100%;
     text-align: center;
     margin: 0;
   }
+
+  .material-symbols-outlined-test {
+    font-size: 120%;
+    position: absolute;
+    padding: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin: 0;
+  }
+
 #menu {
     size: 100%;
 }
+
 p,
 ol {
     color: #dddddd;
@@ -60,6 +88,7 @@ ol {
     font-family: "Open Sans", sans-serif;
     margin-bottom: 3.3em;
 }
+
 footer {
     background-color: #d9d2e9ff;
     text-align: center;
@@ -68,12 +97,14 @@ footer {
     margin-top: 25%;
     padding: 1%;
 }
+
 h3 {
     color:pink;
 }
+
 #menuBar {
     position: absolute;
-    background-color: #C3E8D5;
+    background-color: #003B7C;
     top: 0;
     left: 0;
     height: 100%;
@@ -83,6 +114,7 @@ h3 {
     padding-top: 6%;
     box-shadow: -1px -1px 4px 5px #00000015;
 }
+
 .menu-link {
     font-size: 1.4em;
     margin-left: 10%;
@@ -90,13 +122,24 @@ h3 {
     font-family: "Audiowide", sans-serif;
     text-decoration: none;
 }
+
+.menu-link-test {
+    font-size: 1.4em;
+    margin-left: 10%;
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+}
+
 .menu-link:hover,
 .header-link:hover {
     color: #4F8726FF;
 }
+
 h4 {
     color: purple;
 }
+
 .header-link {
     color: #315D13;
     font-size: 1.6em;
@@ -107,6 +150,7 @@ h4 {
     margin-top: 0.25em;
     text-decoration: none;
 }
+
 .current-link {
     font-size: 1em;
     margin-left: 10%;
@@ -118,22 +162,26 @@ h4 {
     font-weight: 600;
     padding: 0%;
 }
+
 @media only screen and (max-width: 2256px) {
     #menuBar {
         padding-top: 9%;
     }
 }
+
 @media only screen and (max-width: 1200px) {
     #menuBar {
         padding-top: 9%;
         width: 22%;
     }
 }
+
 @media only screen and (max-width: 1080px) {
     #menuBar {
         padding-top: 20%;
     }
 }
+
 @media only screen and (max-width: 995px) {
         div.menu_box {
             height: 120%;
@@ -153,11 +201,13 @@ h4 {
     }
     
 }
+
 @media only screen and (max-width: 855px) {
     #menuBar {
         padding-top: 20%;
     }
 }
+
 @media only screen and (max-width: 840px) {
     h1 {
         font-size: 3em;
@@ -168,6 +218,7 @@ h4 {
         width: 32%;
     }
 }
+
 @media only screen and (max-width: 755px) {
     h1 {
         font-size: 2.5em;
@@ -179,11 +230,13 @@ h4 {
         padding-top: 20%;
     }
 }
+
 @media only screen and (max-width: 578px) {
     #menuBar {
         padding-top: 34%;
     }
 }
+
 @media only screen and (max-width: 530px) {
     h1 {
         font-size: 2em;
