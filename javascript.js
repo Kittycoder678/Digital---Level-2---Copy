@@ -15,10 +15,6 @@ function reset() {
 function hidden(){
 menuTitle.style.display = 'none';    
 }
-function makeMenuBarBlack() {
-  document.body.style.Color = 'pink';
-}
+
 menuBox.onmouseover = openMenu;
 menuBar.onmouseleave = reset;
-menuTitle.menuBox= hidden;
-menuBox.onmouseover = makeMenuBarBlack;
