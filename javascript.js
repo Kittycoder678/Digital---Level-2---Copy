@@ -12,9 +12,6 @@ function reset() {
     menuTest.style.display = 'none';
     menuTitle.style.display = 'none';
 }
-function hidden(){
-menuTitle.style.display = 'none';    
-}
 
 menuBox.onmouseover = openMenu;
 menuBar.onmouseleave = reset;

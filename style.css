@@ -32,17 +32,6 @@ div.menu-box {
     z-index: 3;
 }
 
-div.menu-box-test {
-    height: 100%;
-    aspect-ratio: 1/1;
-    background-color:pink;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    z-index: 3;
-}
-
 div.menu-box-open{
 height: 100%;
     aspect-ratio: 1/1;
@@ -63,23 +52,10 @@ height: 100%;
     left: 50%;
     text-align: center;
     margin: 0;
-    color:#000000
   }
 
   span.menuEcon{
   color:#000000;  
-  }
-
-  .material-symbols-outlined-test {
-    font-size: 120%;
-    position: absolute;
-    padding: 25%;
-    transform: translateX(-50%) translateY(-50%);
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    margin: 0;
-    color:#000000;
   }
 
 #menu {
@@ -143,7 +119,14 @@ h3 {
 }
 
 h4 {
-    color: purple;
+    color: black;
+    font-size: 1.6em;
+    margin-left: 10%;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    padding: 0%;
 }
 
 .header-link {
@@ -167,6 +150,19 @@ h4 {
     margin-bottom: -10%;
     font-weight: 600;
     padding: 0%;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #003B7C;
+    display:grid;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 @media only screen and (max-width: 2256px) {
