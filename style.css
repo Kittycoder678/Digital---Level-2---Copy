@@ -99,17 +99,10 @@ h3 {
 
 .menu-link {
     font-size: 1.4em;
+    font-weight: 400;
     margin-left: 10%;
     color: black;
-    font-family: "Audiowide", sans-serif;
-    text-decoration: none;
-}
-
-.menu-link-test {
-    font-size: 1.4em;
-    margin-left: 10%;
-    color: black;
-    font-family: "Audiowide", sans-serif;
+    font-family: "Fredoka", sans-serif;
     text-decoration: none;
 }
 
@@ -120,6 +113,7 @@ h3 {
 
 h4 {
     color: black;
+    font-weight: 600;
     font-size: 1.6em;
     margin-left: 10%;
     font-family: "Audiowide", sans-serif;
@@ -131,7 +125,7 @@ h4 {
 
 .header-link {
     color: #315D13;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin-left: 5%;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
@@ -143,8 +137,8 @@ h4 {
 .current-link {
     font-size: 1em;
     margin-left: 10%;
-    color: #4A4A4A;
-    font-family: "Audiowide", sans-serif;
+    color: #636363;
+    font-family: "Fredoka", sans-serif;
     text-decoration: none;
     margin-top: -10%;
     margin-bottom: -10%;
@@ -187,6 +181,7 @@ h4 {
 @media only screen and (max-width: 995px) {
         div.menu_box {
             height: 120%;
+            width: 20%;
             aspect-ratio: 1/1;
             background-color:#003B7C;
             position: absolute;
