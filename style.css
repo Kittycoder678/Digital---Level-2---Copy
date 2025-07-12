@@ -147,16 +147,27 @@ h4 {
 }
 
 .rectangle {
-    width: 200px;
-    height: 100px;
+    width: 600px;
+    height: 400px;
     background-color: #003B7C;
-    display:grid;
-    place-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 10vh;
     margin: 0;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+}
+
+.IMG-20250522-WA0004{
+width: 600px;
+height: 400px;
+margin: 0;
+padding:0;
+display: inline-block;    
+}
+
+.Virus{
+margin: 0;
+padding:0; 
 }
 
 @media only screen and (max-width: 2256px) {
