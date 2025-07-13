@@ -152,7 +152,7 @@ h4 {
     background-color: #003B7C;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top: 50%;
+    top: 52.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:2;
@@ -178,7 +178,7 @@ img{
 }
 
 h6{
-     color: #F5F5F5;
+    color: #F5F5F5;
     text-align: center;
     font-family: "Audiowide", sans-serif;
     padding-top:2.5%;
@@ -191,7 +191,7 @@ h6{
 
 h2{
 font-family: "Fredoka", sans-serif;
-font-size: 2.225em;    
+font-size: 220%;    
 }
 
 @media only screen and (max-width: 2256px) {
@@ -205,7 +205,7 @@ font-size: 2.225em;
 }
 @media only screen and (max-width: 1500px) {
     html, body {
-    background-color: fuchsia;
+    background-color: floralwhite;
 }
 h6 {
     color: #F5F5F5;
