@@ -76,7 +76,7 @@ footer {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 1.1em;
-    margin-top: 45.5%;
+    margin-top: 47.35%;
     padding: 1%;
 }
 
@@ -159,21 +159,23 @@ h4 {
     border: 3.25px solid black;
 }
 
-#mask{
+.imgMask{
+    height:42.5%;
+    width:22.5%;
     position:absolute;
     top:35%;
     left:5%;
 }
 
-#virus{
+.imgVirus{
+    height:42%;
+    width:22.5%;
     position:absolute;
     top:35%;
     right:2.5%;
 }
 
 img{
-    height:40%;
-    width:22.5%;
     opacity: 100%;    
 }
 
