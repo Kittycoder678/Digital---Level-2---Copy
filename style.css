@@ -82,7 +82,7 @@ h3 {
     background-color: #C3E8D5;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 102%;
     width: 15%;
     z-index: 2;
     display: none;
@@ -194,10 +194,10 @@ h2{
    flex-direction:column;
 
    /* fallback height */
-   min-height:119vh;
+   min-height:107vh;
 
    /* new small viewport height for modern browsers */
-   min-height:119svh;
+   min-height:107svh;
 }
 #flex-container > footer {
    margin-top:auto;
@@ -237,7 +237,7 @@ h6 {
 }
 
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1750px) {
     html, body {
     background-color: floralwhite;
 }
