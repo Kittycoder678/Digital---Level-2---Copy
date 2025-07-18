@@ -5,8 +5,9 @@
     font-style: normal;
     font-size:500%;
     margin-bottom: 0%;
-    margin-left: 45%;
     margin-top:5%;
+    text-align:center;
+    margin-left:0%;
 }
 
 .title-text3{    
@@ -136,7 +137,7 @@ h3 {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 
 .right-header-div-1 {
     text-align:center;
@@ -168,16 +169,6 @@ li{
     margin-right:0%;
     margin-bottom:0%;
     padding:1.5%;
-  }
-
-footer {
-    position:absolute;
-    left: 0cm;
-    bottom: -25.5cm;
-    text-align: center;
-    background-color:#ACD5D0;
-    width:100%;
-    margin-top:1%;
 }
 
 .mod_images1{
@@ -186,6 +177,8 @@ footer {
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
+    width:45%; 
+    height:25%;
 }
 
 .mod_images2{
@@ -194,6 +187,8 @@ footer {
     right:5%;
     margin-right:0%;
     margin-left:22cm;
+    width:45%; 
+    height:25%;
 }
 
 .mod_images3{
@@ -202,7 +197,10 @@ footer {
     left:5%;
     margin-right:22cm;
     margin-left:0%;
+    width:45%; 
+    height:25%;
 }
+
 
 .mod_images4{
     position:absolute;
@@ -210,6 +208,8 @@ footer {
     right:5%;
     margin-right:0%;
     margin-left:22cm;
+    width:45%;
+    height:25%;
 }
 
 a {
