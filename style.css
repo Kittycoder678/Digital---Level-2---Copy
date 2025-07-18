@@ -82,12 +82,11 @@ h3 {
     background-color: #C3E8D5;
     top: 0;
     left: 0;
-    height: 102%;
+    height: 94%;
     width: 15%;
     z-index: 2;
     display: none;
     padding-top: 6%;
-    box-shadow: -1px -1px 4px 5px #00000015;
 }
 
 .menu-link {
@@ -194,10 +193,10 @@ h2{
    flex-direction:column;
 
    /* fallback height */
-   min-height:107vh;
+   min-height:100vh;
 
    /* new small viewport height for modern browsers */
-   min-height:107svh;
+   min-height:100svh;
 }
 #flex-container > footer {
    margin-top:auto;
