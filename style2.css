@@ -4,12 +4,12 @@
     font-weight: 600;
     font-style: normal;
     font-size:500%;
-<<<<<<< HEAD
     margin-bottom: 0%;
     margin-top:5%;
     text-align:center;
     margin-left:0%;
 }
+
 
 .title-text3{    
     color: rgb(0, 0, 0);
@@ -54,24 +54,6 @@
     margin-top:0%;
     margin-bottom:0%;
 }
-
-body {
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #83A0BB;
-    margin-bottom: 0;
-}
-
-h1 {
-    font-family: "margot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:400%;
-    text-align:center;
-    margin-top: 1%;
-    margin-bottom:1.25%;
-}
-
 
 .rectangle2 {
     background-color:  #acd5d0a2;
@@ -164,14 +146,6 @@ li{
     text-align:left;
 }
 
-.footer {
-    text-align: center;
-    margin-left:0%;
-    margin-right:0%;
-    margin-bottom:0%;
-    padding:1.5%;
-}
-
 .mod_images1{
     position:absolute;
     top:8cm;
@@ -212,8 +186,3 @@ li{
     width:45%;
     height:25%;
 }
-
-a {
-    text-decoration: none;
-    color: black;
-  }
