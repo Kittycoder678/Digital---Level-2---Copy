@@ -54,21 +54,17 @@
     margin-top:0%;
     margin-bottom:0%;
 }
-
 .rectangle2 {
-    background-color:  #acd5d0a2;
     width: 15cm;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
     top:8cm;
     right:5%;
-    z-index:-1;
-    border: 3.25px solid black;
+    z-index:-1;   
 }
 
 .rectangle3 {
-    background-color:  #acd5d0a2;
     width: 15cm;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
@@ -76,11 +72,9 @@
     top:16.5cm;
     left:5%;
     z-index:-1;
-    border: 3.25px solid black;
 }
 
 .rectangle4 {
-    background-color:  #acd5d0a2;
     width: 15cm;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
@@ -88,11 +82,9 @@
     top:25cm;
     right:5%;
     z-index:-1;
-    border: 3.25px solid black;
 }
 
 .rectangle5 {
-    background-color:  #acd5d0a2;
     width: 15cm;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
@@ -100,7 +92,6 @@
     top:33.5cm;
     left:5%;
     z-index:-1;
-    border: 3.25px solid black;
 }
 
 h3 {
@@ -152,8 +143,9 @@ li{
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
-    width:45%; 
-    height:25%;
+    width:25%; 
+    height:35%;
+    z-index: -1;
 }
 
 .mod_images2{
